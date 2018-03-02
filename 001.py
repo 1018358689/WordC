@@ -9,7 +9,7 @@ import numpy as np
 from PIL import Image
 import re
 
-with open('杭师大教育学院交流群.txt', encoding='utf-8') as f:
+with open('poetry.txt', encoding='utf-8') as f:  #'杭师大教育学院交流群.txt'
     text = f.read()
 
 text = re.sub('((\d){4}-(\d){2}-(\d){2} (\d){1,2}:\d\d:\d\d)|\[图片\]|\[表情\]|\s|系统消息\(10000\)', '', text)
